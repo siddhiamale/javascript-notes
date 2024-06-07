@@ -4,3 +4,4 @@ let age=23;
 const pi=3.14;
  //var keyword is the old syntax of writing and declaring variables. It is similar to let.
  var x=5;
+
