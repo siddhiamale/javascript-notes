@@ -38,3 +38,17 @@ switch(day){
     case 7:console.log("Sunday");break;
     default:console.log("Invalid day");
 }
+
+
+// ALERT AND PROMPT
+//   Alert => zit displays an alert message on the page.
+alert("Smething is wrong");
+
+//   Prompt => It displays a dialogbox that asks user for some input.
+prompt("Enter your name:");
+
+//eg.
+let firstName=prompt("Enter first name:");
+let lastName=prompt("enter last name:");
+let fullName=(firstName+" "+lastName);
+alert(fullName);
