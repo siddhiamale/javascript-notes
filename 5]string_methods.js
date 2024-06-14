@@ -1,4 +1,4 @@
-//                                                              String methods 
+//                                                 STRING METHODS 
 //string methods are the actions that can be performed on object.
 //strings are immutable in JS
 
