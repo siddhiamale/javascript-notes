@@ -63,3 +63,51 @@ if(a>b && a>c){
 }else{
     console.log(`c = ${c} is greater`);
 }
+
+//************************************************************************************
+//   part 3
+//************************************************************************************
+//Q1.Write a js program to get the first n elements of an array.[n can be any positive number]
+let arr=[7,9,0,-2];
+let n=3;
+let ans=arr.slice(0,n);
+console.log(ans);
+
+//Q2.Write a js program to get the first n elements of an array.[n can be any positive number]
+arr=[7,9,0,-2];
+n=3;
+ans=arr.slice(arr.length-n);
+console.log(ans);
+
+//Q3.Write a js program to check whether a string is blanck or not.
+str=prompt("enter str");
+if(str.length == 0){
+    console.log("string is empty");
+}else{
+    console.log("not");      
+}
+
+//Q4.Write a js program to tezt whether the character at the given index is lowercase.
+str="AmALe";
+let idx=2;
+if(str[idx] == str[idx].toLowerCase()){
+    console.log("lowercase");
+}else{
+    console.log("not lowercase");
+}
+
+//Q5.Write a js program to strip leading and trailing spaces from string.
+str="    hello ";
+console.log("original string",str);
+ans=str.trim();
+console.log("string without spaces",ans);
+
+//Q6.Write a js program to check if an element exists in an array or not.
+str="Ilove coding.";
+console.log(str);
+ans=str.includes("c");
+console.log(ans);
+
+//********************************************************************************************
+//   part 4
+//********************************************************************************************
